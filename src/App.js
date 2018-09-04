@@ -4,6 +4,7 @@ import './App.css';
 //components
 import Youtube from './Youtube';
 import MyHeader from './Header';
+import MyFooter from './Footer';
 
 //other
 import YouTube from 'react-youtube';
@@ -21,6 +22,7 @@ class App extends Component {
     <h1>THADS MICHAEL EGAR</h1>
     <p>Website currently under construction</p>
   </div>
+  <MyFooter />
 </div>
 
 
