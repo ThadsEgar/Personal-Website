@@ -5,7 +5,10 @@ import './App.css';
 import Youtube from './Youtube';
 import MyHeader from './Header';
 import MyFooter from './Footer';
-
+import ContentLanding from './ContentLanding';
+import ContentAbout from './ContentAbout';
+import ContentContact from './ContentContact';
+import Router from './Router';
 //other
 import YouTube from 'react-youtube';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
@@ -19,8 +22,7 @@ class App extends Component {
   <MyHeader />
   <Youtube />
   <div className="content">
-    <h1>THADS MICHAEL EGAR</h1>
-    <p>Website currently under construction</p>
+    <Router />
   </div>
   <MyFooter />
 </div>

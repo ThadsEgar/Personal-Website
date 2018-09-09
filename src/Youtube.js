@@ -17,7 +17,9 @@ class Example extends React.Component {
       autoplay: 1,
       controls: 0,
       rel: 0,
-      showinfo: 0
+      showinfo: 0,
+      loop: 1,
+      iv_load_policy: 3
     }
   };
 
@@ -25,7 +27,8 @@ class Example extends React.Component {
       <div className="video-background">
           <div className="video-foreground">
             <YouTube
-              videoId="2hXmm0nsGN0"
+              //videoId="hzMnBcJwPXY"
+              videoId="o0D6Av1BgUM"
               opts={videoOptions}
               className="video-iframe"
               onReady={this._onReady}

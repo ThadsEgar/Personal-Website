@@ -20,7 +20,7 @@
 }
 
 .video-foreground{
-  opacity:0.5;
+  opacity:.5;
 }
 .video-foreground,
 .video-background iframe {

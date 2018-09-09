@@ -1,5 +1,9 @@
 .content{
-  height: 625px;
+
+  padding-top: 5px;
+  height: 600px;
+
+  background-color: rgba(0,0,0,.5);
   text-align: center;
   color: white;
 }
