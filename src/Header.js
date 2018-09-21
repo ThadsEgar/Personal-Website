@@ -10,7 +10,7 @@ class MyHeader extends React.Component {
       <div style={{height: '100px', position: 'relative'}}>
               <Header transparent className="Header" title="CS" style={{color: 'white'}}>
                   <Navigation className="Navigation-names">
-                  <Link to="/">Home</Link>
+                  <Link to="/Personal-Website/">Home</Link>
                   <Link to="/ContentAbout">About</Link>
                   <Link to="/ContentContact">Contact</Link>
                   </Navigation>

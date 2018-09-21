@@ -8,7 +8,7 @@ import ContentContact from './ContentContact';
 
 const Router = () => (
 <Switch>
-  <Route exact path="/" component={ContentLanding} />
+  <Route exact path="/Personal-Website/" component={ContentLanding} />
   <Route path="/ContentAbout" component={ContentAbout} />
   <Route path="/ContentContact" component={ContentContact} />
 </Switch>
